@@ -1,3 +1,12 @@
+font-family: "Inter",
+sans-serif;
+font-optical-sizing: auto;
+font-weight: <weight>;
+
+
+
+
+
 .top {
 
 	width: 1600px;
@@ -13,6 +22,9 @@
 .top nav {
 	display: flex;
 	align-items: center;
+
+
+
 	justify-content: space-around;
 	padding: 16px 120px;
 
@@ -206,5 +218,67 @@
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 20px;
+
+}
+
+.structure {
+
+	background-color: #FFFFFF;
+
+	width: 100%;
+	min-height: 840px;
+}
+
+.structure .display {
+	max-width: 1360;
+	margin: 0 auto;
+	padding: 120px;
+}
+
+.flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 40px;
+}
+
+.solution {
+
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+	color: #30B868;
+	margin-bottom: 16px;
+}
+
+.verify h1 {
+
+	font-weight: 700;
+	font-size: 48px;
+	color: #001931;
+	margin-bottom: 16px;
+}
+
+.verify p {
+	margin-bottom: 40px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	color: #627382;
+}
+
+.list {
+	list-style: none;
+
+}
+
+.list li {
+	padding-left: 26px;
+	position: relative;
+	margin-bottom: 16px;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+	color: #001931;
 
 }
