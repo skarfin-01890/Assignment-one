@@ -378,6 +378,7 @@ font-weight: <weight>;
 
 .footer-section {
 	width: 100%;
+
 	background-color: #001931;
 
 
@@ -390,12 +391,13 @@ font-weight: <weight>;
 
 .footer-container {
 
-
+	max-width: 1200px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	text-align: center;
 	gap: 80px;
+	margin: o auto;
 }
 
 .social p {
