@@ -3,6 +3,13 @@ sans-serif;
 font-optical-sizing: auto;
 font-weight: <weight>;
 
+html,
+body {
+	height: auto;
+	overflow-x: hidden;
+	overflow-y: visible;
+}
+
 
 
 
