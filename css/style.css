@@ -348,7 +348,7 @@ font-weight: <weight>;
 	max-width: 1360px;
 	width: 100%;
 	background-color: #f7f6f2;
-	height: 384px;
+	min-height: 384px;
 	text-align: center;
 	align-items: center;
 	display: flex;
