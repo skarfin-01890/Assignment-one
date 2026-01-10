@@ -282,3 +282,15 @@ font-weight: <weight>;
 	color: #001931;
 
 }
+
+.list li::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	width: 16px;
+	height: 16px;
+	top: 1.88px;
+	background-image: url('../assets/CheckCircle.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
