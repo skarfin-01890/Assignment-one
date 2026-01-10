@@ -165,7 +165,7 @@ font-weight: <weight>;
 .card-inside {
 	display: flex;
 	justify-content: center;
-	padding: 40ox 24px;
+
 	gap: 16px;
 	padding: 69px 131px;
 }
@@ -175,9 +175,15 @@ font-weight: <weight>;
 
 	border-radius: 8px;
 	box-shadow: 0px 4px 8px #0000001f;
-	background-color: #af1a1a;
-	width: 322px;
-	height: 300px;
+	background-color: #ffffff;
+	max-width: 322px;
+	width: 100%;
+	padding: 24px;
+
+	align-items: center;
+	text-align: center;
+	margin: 0% auto;
+
 
 
 }
@@ -201,7 +207,7 @@ font-weight: <weight>;
 .card-inside .skill-card img {
 	background-color: #F95555;
 
-	padding: 15px;
+	padding: 14px;
 	margin: 0 auto;
 	border-radius: 50%;
 	display: block;
@@ -293,4 +299,47 @@ font-weight: <weight>;
 	background-image: url('../assets/CheckCircle.png');
 	background-size: contain;
 	background-repeat: no-repeat;
+}
+
+.ready-section {
+	width: 100%;
+
+	padding: 120px;
+	background-color: #FFFFFF;
+	display: flex;
+	justify-content: center;
+
+
+}
+
+.ready-container {
+	max-width: 1360px;
+	width: 100%;
+	background-color: #f7f6f2;
+	height: 384px;
+	text-align: center;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin: 0 auto;
+}
+
+.ready-container h2 {
+	font-weight: 700;
+	font-size: 40px;
+	color: #001931;
+	margin-bottom: 16px;
+
+}
+
+.ready-container p {
+
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #627382;
+	margin-bottom: 16px;
+
+
 }
