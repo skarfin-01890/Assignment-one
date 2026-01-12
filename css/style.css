@@ -5,9 +5,9 @@ font-weight: <weight>;
 
 html,
 body {
-	height: auto;
-	overflow-x: hidden;
-	overflow-y: visible;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
 }
 
 
@@ -95,7 +95,7 @@ body {
 }
 
 .vtn .button-icon {
-	height: 16px;
+	min-height: 16px;
 	width: auto;
 }
 
@@ -333,7 +333,7 @@ body {
 	position: absolute;
 	left: 0;
 	width: 16px;
-	height: 16px;
+	min-height: 16px;
 	top: 1.88px;
 	background-image: url('../assets/CheckCircle.png');
 	background-size: contain;
