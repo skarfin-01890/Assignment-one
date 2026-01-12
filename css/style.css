@@ -10,7 +10,9 @@ body {
 	flex-direction: column;
 }
 
-
+main {
+	flex: 1;
+}
 
 
 
@@ -27,6 +29,7 @@ body {
 .top nav {
 	display: flex;
 	align-items: center;
+	width: 100%;
 
 	max-width: 1360px;
 	margin: 0 auto;
